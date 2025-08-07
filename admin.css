@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(to right, #c0beeb, #5c7deb);
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: #3a3197;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#apts {
+  
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-right: 5%;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ddd;
+  border-collapse:  collapse;
+  width: 70%;
+
+}
+
+
+
+#apts td,
+#apts th {
+  border: 1px solid #363f72;
+  padding: 8px;
+}
+
+#apts th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3e5da1;
+  color: rgb(193, 208, 231);
+}
+
+#apts tr:nth-child(odd) {
+  background-color: #778ac7;
+}
+
+#apts tr:hover {
+  background-color: #b0cbee;
+}
+
+.btn {
+  background-color: #4648d6;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #aa1111;
+}
+
+
+
+.mbtn {
+  background-color: #4648d6;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.mbtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.mbtn:hover {
+  background-color: #3a5f81;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #3a3197;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
